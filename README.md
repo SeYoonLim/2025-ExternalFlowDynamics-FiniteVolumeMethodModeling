@@ -1,4 +1,4 @@
-##### Estimation of Dynamic Response Parameters for Droplet Jetting Stability Based on an Inverse Physics-Informed DeepONet 
+#### Estimation of Dynamic Response Parameters for Droplet Jetting Stability Based on an Inverse Physics-Informed DeepONet 
 
 압전 잉크젯은 전기 신호로 압전 소자를 구동하여 노즐에서 미세 액적을 정밀하게 분사하는 장치이다. 최근 미세 제조 공정의 안정성과 생산성 향상을 위해 압전 잉크젯의 분사 성능 향상을 위한 연구가 활발히 진행되고 있다. 그러나 분사 안정성은 구동 파형과 잉크 물성치에 의해 민감하게 변화하며, 특히 노즐 계면의 진동은 액적 형성과 분사 재현성에 부정적인 영향을 미칠 수 있다.
 본 연구는 노즐에서 측정된 체적 유량을 이용하여 동적 응답 파라미터를 역추정하고, 이를 기반으로 액적 분사 안정성을 분석하는 방법을 제안한다. 실험에서 관측된 유량은 진동 특성을 보였으며, 인가 전압과 잉크 물성치에 의해 진폭이 시간에 따라 변조되는 경향이 확인되었다. 먼저, 측정 신호의 물리적 관계를 이해하기 위해 지배방정식을 세우고, 수치적으로 해석하여 실험 결과와 일치성을 확인하였다. 이후, 역(inverse) 문제 설정에서 Physics-informed Deep Operator Network(DeepONet)를 도입하여 관측된 유량 거동에 대한 데이터 손실과 상기 지배방정식 잔차를 결합한 학습을 수행함으로써 매개변수($R, L, C, F$)를 추정하였다. 마지막으로, 추정된 파라미터를 수치해석의 이론값과 비교하여 물리적 타당성을 검증하고, 감쇠비 및 고유진동수 등 안정성 지표로 연결함으로써 계면 진동이 액적 분사 안정성에 미치는 영향을 정량적으로 논의한다.
