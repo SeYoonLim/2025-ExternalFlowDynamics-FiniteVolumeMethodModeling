@@ -4,4 +4,5 @@ Piezoelectric inkjet technology is widely used for precise, non-contact droplet 
 
 ![Flowchart](Flowchart.png)
 
-### **Fig 1. Equivalent-circuit schematic of the lumped-element model**
+### **Fig 1. Flowchart of the proposed numerical method**
+
