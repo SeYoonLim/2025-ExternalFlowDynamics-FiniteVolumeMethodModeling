@@ -6,5 +6,5 @@ Piezoelectric inkjet technology is widely used for precise, non-contact droplet 
   <img src="Flowchart.png" alt="Flowchart" width="700">
 </p>
 
-<p align="center"><strong>Fig 1. Flowchart of the proposed numerical method</strong></p>
+<p align="center"><strong>Fig 1. Flowchart of the proposed transient numerical procedure</strong></p>
 
